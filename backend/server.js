@@ -14,6 +14,14 @@ app.use("/api/auth", require("./routes/authRoutes"));
 app.use("/api/products", require("./routes/productRoutes"));
 app.use("/api/parties", require("./routes/partyRoutes"));
 app.use("/api/sales", require("./routes/saleRoutes"));
+app.use("/api/test", require("./routes/testRoutes"));
+app.use("/api/purchases", require("./routes/purchaseRoutes"));
+app.use("/api/payments", require("./routes/paymentRoutes"));
+app.use("/api/sale-returns", require("./routes/saleReturnRoutes"));
+app.use("/api/purchase-returns", require("./routes/purchaseReturnRoutes"));
+app.use("/api/reports", require("./routes/reportRoutes"));
+
+
 
 app.get("/", (req, res) => {
   res.send("Smart Inventory API Running");
