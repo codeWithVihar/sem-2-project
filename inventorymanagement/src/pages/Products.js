@@ -51,7 +51,7 @@ function Products() {
       <div style={{ padding: 40 }}>
         <h2>Products</h2>
 
-        {/* ADD PRODUCT FORM */}
+        {/* ADD PRODUCT FORM
         <form onSubmit={addProduct} style={styles.form}>
           <input
             placeholder="Product Name"
@@ -97,7 +97,7 @@ function Products() {
             required
           />
           <button>Add Product</button>
-        </form>
+        </form> */}
 
         {/* PRODUCT TABLE */}
         <table style={styles.table}>
