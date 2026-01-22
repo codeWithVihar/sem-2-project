@@ -8,9 +8,9 @@ This is an Inventory Management System project developed as part of my academic 
 - Backend support for inventory operations
 
 ## 🛠️ Tech Stack
-- Frontend: (HTML/CSS/React – update this)
+- Frontend: HTML/CSS/React 
 - Backend: Node.js, Express
-- Database: (MongoDB)
+- Database: MongoDB
 
 ## 📂 Project Structure
 inventorymanagement/   # Main application
